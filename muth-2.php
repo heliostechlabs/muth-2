@@ -5,8 +5,8 @@ $ch = curl_init();
 
 
 
-$mobile = '9418720761';
-$first_name = 'ata';
+$mobile = '9418720762';
+$first_name = 'atan';
 $last_name = 'Jna';
 $email = 'hanan5@gmail.com';
 $pin = '160072';
@@ -35,7 +35,7 @@ echo $result;
 
 echo "BREAK";
 
-print_r(" " .type($result). "  ");
+print_r(" " .gettype($result). "  ");
 
 $string = explode("<ItemKey>", $break);
 
